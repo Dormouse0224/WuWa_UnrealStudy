@@ -18,7 +18,8 @@ public class WutheringWaves : ModuleRules
 			"BlueprintGraph", 
 			"GameplayAbilities", 
 			"GameplayTags", 
-			"GameplayTasks"
+			"GameplayTasks",
+			"IKRig"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
