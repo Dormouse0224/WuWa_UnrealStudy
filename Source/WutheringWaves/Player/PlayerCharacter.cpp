@@ -66,7 +66,7 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
     if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
 
         // 점프 (Character 기본 제공 함수 사용)
-        EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
+        EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Triggered, this, &ACharacter::Jump);
         EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
 
         // 이동
@@ -76,7 +76,7 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
         EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &APlayerCharacter::Look);
 
         // 캐릭터 스위칭
-        EnhancedInputComponent->BindAction(SwitchCharactorAction, ETriggerEvent::Started, this, &APlayerCharacter::SwitchCharactor);
+        EnhancedInputComponent->BindAction(SwitchCharactorAction, ETriggerEvent::Triggered, this, &APlayerCharacter::SwitchCharactor);
     }
 }
 
@@ -111,10 +111,10 @@ void APlayerCharacter::Look(const FInputActionValue& Value)
 
 void APlayerCharacter::SwitchCharactor(const FInputActionValue& Value)
 {
-    int32 CharacterMeshIndex = FMath::FloorToInt32(Value.Get<float>());
+    int32 CharacterMeshIndex = FMath::FloorToInt32(Value.Get<float>()) - 1;
     const USkeletalMesh* const CurrentMesh = GetMesh()->GetSkeletalMeshAsset();
 
-    if (CharacterMeshArray.Num() < CharacterMeshIndex)
+    if (CharacterMeshArray.Num() > CharacterMeshIndex && CharacterMeshIndex >= 0)
     {
         if (CharacterMeshArray[CharacterMeshIndex] != nullptr || CurrentMesh != CharacterMeshArray[CharacterMeshIndex])
         {

@@ -1,0 +1,112 @@
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011Face_D.T_R2T1KatixiyaMd10011Face_D",
+    "PM_Diffuse": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_6XingStar02_D.T_6XingStar02_D",
+    "T_R2T1KatixiyaMd10011Face_D": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011Face_D.T_R2T1KatixiyaMd10011Face_D",
+    "TypeMask": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011Face_ID.T_R2T1KatixiyaMd10011Face_ID",
+    "T_R2T1KatixiyaMd10011Face_ID": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011Face_ID.T_R2T1KatixiyaMd10011Face_ID",
+    "MaskTex": "Client/Content/Aki/Character/Role/CommonTexture/T_FemaleMFace_SDF.T_FemaleMFace_SDF",
+    "T_FemaleMFace_SDF": "Client/Content/Aki/Character/Role/CommonTexture/T_FemaleMFace_SDF.T_FemaleMFace_SDF",
+    "D": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_6XingStar02_D.T_6XingStar02_D",
+    "T_6XingStar02_D": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_6XingStar02_D.T_6XingStar02_D",
+    "Ramp": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011_Skin.T_R2T1KatixiyaMd10011_Skin",
+    "T_R2T1KatixiyaMd10011_Skin": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011_Skin.T_R2T1KatixiyaMd10011_Skin"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "SkinSubsurfaceColor": {
+        "R": 0.938686,
+        "G": 0.603828,
+        "B": 0.40724,
+        "A": 1.0,
+        "Hex": "F8CCAB"
+      },
+      "SubsurfaceColor": {
+        "R": 0.34375,
+        "G": 0.34375,
+        "B": 0.34375,
+        "A": 0.0,
+        "Hex": "9F9F9F"
+      },
+      "SkinBaseColor": {
+        "R": 0.701961,
+        "G": 0.639216,
+        "B": 0.564706,
+        "A": 1.0,
+        "Hex": "DAD2C6"
+      },
+      "SkinBaseColorNight": {
+        "R": 0.85098,
+        "G": 0.835294,
+        "B": 0.756863,
+        "A": 1.0,
+        "Hex": "EEECE2"
+      },
+      "SkinColor": {
+        "R": 0.96875,
+        "G": 0.954876,
+        "B": 0.913249,
+        "A": 0.0,
+        "Hex": "FCFAF5"
+      }
+    },
+    "Scalars": {
+      "SolidShadowSaturation": 1.0,
+      "SolidShadowView": 1.0,
+      "ShadowProcess": 0.5,
+      "ShadowWidth": 0.02,
+      "SolidShadowStrength": 1.0,
+      "SDFSmoothness": 0.001,
+      "XingHenPosition": 0.0,
+      "UVpositionX": -0.019524,
+      "UVpositionY": -1.663287,
+      "UVScaleX": 3.274625,
+      "UVScaleY": 5.211645,
+      "UseUVGradient_DYN": 1.0,
+      "UvGradientProcess": 0.26,
+      "UvGradientScale": 70.0,
+      "UseMainLightColor": 0.2,
+      "BaseSphereLightInt": 0.25,
+      "ShdaowSphereLightInt": 0.5,
+      "ShowSphereLightMask": 0.0,
+      "Param": 0.0,
+      "RampInt": 0.4,
+      "RampPosition": 0.3,
+      "UVGradientSkinInt": 0.95,
+      "UVSaturationIntensity": 1.5,
+      "LightOffset_Pitch": 0.0,
+      "LightPitch(False=30,True=45)_DYN": 0.0,
+      "UseLightOffset_Pitch_DYN": 1.0,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseTypeMask": true,
+      "UseToonMask": true,
+      "UseXingHen": true,
+      "UseFaceRamp": true,
+      "UseRampMask": true,
+      "UseRampColor": true,
+      "UseSkinAllRampColor": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "bRenderInCustomCapturePass": true,
+        "ShadingModel": "MSM_ToonFace",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 180,
+        "bCastRayTracedShadows": true,
+        "bIsOnlyForSkeletalMesh": true
+      }
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

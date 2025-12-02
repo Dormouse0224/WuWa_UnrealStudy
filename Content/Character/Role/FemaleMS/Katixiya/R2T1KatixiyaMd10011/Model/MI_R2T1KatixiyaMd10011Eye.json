@@ -1,0 +1,124 @@
+{
+  "Textures": {
+    "EM": "Client/Content/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.T_HDMF_EM",
+    "PM_Emissive": "Client/Content/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.T_HDMF_EM",
+    "T_HDMF_EM": "Client/Content/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.T_HDMF_EM",
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011Eye_D.T_R2T1KatixiyaMd10011Eye_D",
+    "PM_Diffuse": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011Eye_D.T_R2T1KatixiyaMd10011Eye_D",
+    "T_R2T1KatixiyaMd10011Eye_D": "Client/Content/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/T_R2T1KatixiyaMd10011Eye_D.T_R2T1KatixiyaMd10011Eye_D",
+    "HeightLightMap": "Client/Content/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight04_EG.T_EyesSecondHeightLight04_EG",
+    "T_EyesSecondHeightLight04_EG": "Client/Content/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight04_EG.T_EyesSecondHeightLight04_EG",
+    "MaskTex": "Client/Content/Aki/Character/Role/CommonTexture/T_FemaleMFace_SDF.T_FemaleMFace_SDF",
+    "T_FemaleMFace_SDF": "Client/Content/Aki/Character/Role/CommonTexture/T_FemaleMFace_SDF.T_FemaleMFace_SDF"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "HeightLight_Color": {
+        "R": 0.095,
+        "G": 0.174,
+        "B": 0.223,
+        "A": 0.4,
+        "Hex": "66577482"
+      },
+      "ParallaxOffset": {
+        "R": 0.084376,
+        "G": 0.191202,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "527900"
+      },
+      "HeightLightColor": {
+        "R": 0.03,
+        "G": 0.03,
+        "B": 0.03,
+        "A": 2.0,
+        "Hex": "303030"
+      },
+      "OutLineColor": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "EdgeColor": {
+        "R": 0.239583,
+        "G": 0.239583,
+        "B": 0.239583,
+        "A": 1.0,
+        "Hex": "868686"
+      },
+      "ShadowColor": {
+        "R": 0.6,
+        "G": 0.6,
+        "B": 0.6,
+        "A": 0.0,
+        "Hex": "CCCCCC"
+      }
+    },
+    "Scalars": {
+      "HeightLight_PositionX": 0.539,
+      "HeightLight_PositionY": 0.62,
+      "HeightLight_WidthX": 1.21,
+      "HeightLight_WidthY": 0.85,
+      "HeightLightMax": 0.45,
+      "HeightLightMin": 0.0,
+      "HeightLightRotate": 1.5,
+      "HeightLightScale": 0.26,
+      "ParallaxHeight": 0.13,
+      "ParallaxScale": 0.8,
+      "EyeScale": 0.85,
+      "AniScaleCenterX": 0.7,
+      "AniScaleCenterY": 0.7,
+      "SecondLight_PositionX": 0.2,
+      "SecondLight_PositionY": 0.410928,
+      "SecondLight_WidthX": 1.1,
+      "SecondLight_WidthY": 0.672381,
+      "RotateAngle": -0.513857,
+      "SecondLight_Position02X": 0.25,
+      "SecondLight_Position02Y": 0.4,
+      "SecondLight_Width02X": 2.0,
+      "SecondLight_Width02Y": 1.5,
+      "RotateAngle02": -0.1,
+      "ShapeScaleX": 8.0,
+      "ShapeScaleY": 16.0,
+      "RotationAnlgle01": 0.008571,
+      "ShapePosition01X": 0.72,
+      "ShapePosition01Y": 0.76,
+      "RotationAnlgle02": 0.0,
+      "EdgeWidth": 0.6,
+      "Hardness": 0.47,
+      "LightDisable": 0.4,
+      "LightEmissiveInt": 0.8,
+      "Radius": 0.65,
+      "UseProLight": 1.0,
+      "Width": 0.22,
+      "ShadowWidth": 0.01,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseHeightLightShape": true,
+      "UseEyeSDF": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "ShadingModel": "MSM_ToonFace",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 180,
+        "bCastRayTracedShadows": true,
+        "bIsOnlyForSkeletalMesh": true,
+        "bDisableCastDynamicShadows": true
+      }
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}

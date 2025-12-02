@@ -1,0 +1,129 @@
+{
+  "Textures": {
+    "MainTex": "Client/Content/Aki/Character/Role/FemaleZ/Fuludelisi/R2T1FuludelisiMd10011/Model/T_R2T1FuludelisiMd10011Face_D.T_R2T1FuludelisiMd10011Face_D",
+    "PM_Diffuse": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_6XingStar_D.T_6XingStar_D",
+    "T_R2T1FuludelisiMd10011Face_D": "Client/Content/Aki/Character/Role/FemaleZ/Fuludelisi/R2T1FuludelisiMd10011/Model/T_R2T1FuludelisiMd10011Face_D.T_R2T1FuludelisiMd10011Face_D",
+    "TypeMask": "Client/Content/Aki/Character/Role/FemaleZ/Fuludelisi/R2T1FuludelisiMd10011/Model/T_R2T1FuludelisiMd10011Face_ID.T_R2T1FuludelisiMd10011Face_ID",
+    "T_R2T1FuludelisiMd10011Face_ID": "Client/Content/Aki/Character/Role/FemaleZ/Fuludelisi/R2T1FuludelisiMd10011/Model/T_R2T1FuludelisiMd10011Face_ID.T_R2T1FuludelisiMd10011Face_ID",
+    "MaskTex": "Client/Content/Aki/Character/Role/CommonTexture/T_FemaleMFace_SDF.T_FemaleMFace_SDF",
+    "T_FemaleMFace_SDF": "Client/Content/Aki/Character/Role/CommonTexture/T_FemaleMFace_SDF.T_FemaleMFace_SDF",
+    "D": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_6XingStar_D.T_6XingStar_D",
+    "T_6XingStar_D": "Client/Content/Aki/Character/Role/CommonTexture/Star/T_6XingStar_D.T_6XingStar_D",
+    "Ramp": "Client/Content/Aki/Character/Role/FemaleZ/Fuludelisi/R2T1FuludelisiMd10011/Model/T_R2T1FuludelisiMd10011_Skin.T_R2T1FuludelisiMd10011_Skin",
+    "T_R2T1FuludelisiMd10011_Skin": "Client/Content/Aki/Character/Role/FemaleZ/Fuludelisi/R2T1FuludelisiMd10011/Model/T_R2T1FuludelisiMd10011_Skin.T_R2T1FuludelisiMd10011_Skin"
+  },
+  "Parameters": {
+    "BlendMode": 0,
+    "ShadingModel": 0,
+    "Colors": {
+      "SkinSubsurfaceColor": {
+        "R": 0.8,
+        "G": 0.673333,
+        "B": 0.6,
+        "A": 1.0,
+        "Hex": "E8D6CC"
+      },
+      "SubsurfaceColor": {
+        "R": 0.645541,
+        "G": 0.663118,
+        "B": 0.677083,
+        "A": 0.0,
+        "Hex": "D2D5D7"
+      },
+      "EmissionColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SDFColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SDFColor02": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "SkinBaseColor": {
+        "R": 0.7,
+        "G": 0.685294,
+        "B": 0.65,
+        "A": 1.0,
+        "Hex": "DAD8D3"
+      },
+      "SkinBaseColorNight": {
+        "R": 0.905882,
+        "G": 0.886275,
+        "B": 0.811765,
+        "A": 0.0,
+        "Hex": "F5F2E9"
+      },
+      "SkinColor": {
+        "R": 0.777952,
+        "G": 0.918863,
+        "B": 0.976042,
+        "A": 1.0,
+        "Hex": "E5F6FD"
+      }
+    },
+    "Scalars": {
+      "SolidShadowSaturation": 1.0,
+      "SolidShadowView": 1.0,
+      "ShadowWidth": 0.03,
+      "SDFSmoothness": 0.001,
+      "XingHenControl": 0.0,
+      "XingHenPosition": 0.0,
+      "UVpositionX": 0.0,
+      "UVpositionY": -1.6,
+      "UVScaleX": 3.0,
+      "UVScaleY": 5.0,
+      "UseUVGradient_DYN": 1.0,
+      "UvGradientProcess": 0.26,
+      "BaseSphereLightInt": 0.25,
+      "ShdaowSphereLightInt": 0.5,
+      "ShowSphereLightMask": 0.0,
+      "Param": 0.0,
+      "RampInt": 0.5,
+      "RampPosition": 0.3,
+      "SolidShadow_RampPosition": 0.4,
+      "UVGradientSkinInt": 0.95,
+      "UVSaturationIntensity": 0.5,
+      "RefractionDepthBias": 0.0
+    },
+    "Switches": {
+      "UseTypeMask": true,
+      "UseMainTexA": true,
+      "UseAlphaBlendMode": true,
+      "UseUVGradient": true,
+      "UseFaceRamp": true,
+      "UseRampMask": true,
+      "UseRampColor": true,
+      "UseSkinAllRampColor": true
+    },
+    "Properties": {
+      "bHasStaticPermutationResource": true,
+      "BasePropertyOverrides": {
+        "TwoSided": true,
+        "bRenderInCustomCapturePass": true,
+        "ShadingModel": "MSM_ToonFace",
+        "OpacityMaskClipValue": 0.3333,
+        "RenderQueue": 180,
+        "bCastRayTracedShadows": true,
+        "bIsOnlyForSkeletalMesh": true
+      }
+    },
+    "HasTopDiffuse": true,
+    "HasTopNormals": false,
+    "HasTopSpecularMasks": false,
+    "HasTopEmissive": false,
+    "IsTranslucent": false,
+    "IsNull": false
+  }
+}
