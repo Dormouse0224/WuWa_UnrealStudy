@@ -89,6 +89,7 @@ struct FIKRetargetPelvisMotionBFSOpSettings : public FIKRetargetOpSettingsBase
 	/** (required) override to specify how settings should be applied in a way that will not require reinitialization (ie runtime compatible)*/
 	virtual void CopySettingsAtRuntime(const FIKRetargetOpSettingsBase* InSettingsToCopyFrom) override;
 };
+
 /**
  * 
  */
